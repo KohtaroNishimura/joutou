@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>大阪渡来 上等たこ焼き（名護本陣）｜名護の屋台・フードトラックたこ焼き</title>
+  <meta name="description" content="大阪のフワトロ系 上等たこ焼き。名護市の屋台・フードトラック。1週間単位でスーパー前に出店中。電話予約は右下の電話ボタンから。">
+  <meta property="og:title" content="大阪渡来 上等たこ焼き（名護本陣）">
+  <meta property="og:description" content="大阪のフワトロ系 上等たこ焼き。名護市の屋台・フードトラック。1週間単位でスーパー前に出店中。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="./assets/logo.jpg">
+  <meta name="theme-color" content="#c62828">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="./assets/logo.jpg">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <picture>
+          <source srcset="./assets/logo.webp" type="image/webp">
+          <source srcset="./assets/logo.jpg" type="image/jpeg">
+          <img class="logo-img" src="./assets/logo.jpg" alt="上等たこ焼き ロゴ" onerror="this.style.display='none';document.querySelector('.logo-fallback').style.display='block';">
+        </picture>
+        <div class="logo-fallback">大阪渡来 上等たこ焼き</div>
+        <div class="brand-sub">名護本陣｜屋台・フードトラック</div>
+      </div>
+      <nav class="header-actions">
+        <a class="btn btn-secondary" href="https://www.instagram.com/joutou.takoyaki.0211/" target="_blank" rel="noopener">Instagram</a>
+        <a class="btn btn-primary" id="callBtn" href="tel:05068715322">電話する</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>大阪のフワトロ系 上等たこ焼き</h1>
+        <p class="lead">沖縄移住7年目の大阪人が焼いています。1週間単位でスーパー前に出店中。</p>
+        <picture class="hero-media">
+          <source srcset="./assets/hero-1800.webp" type="image/webp">
+          <source srcset="./assets/hero-1800q70.jpg" type="image/jpeg">
+          <img src="./assets/hero.jpg?v=3" alt="上等たこ焼き ヒーロー画像" class="hero-img" loading="eager" decoding="async">
+        </picture>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="tel:05068715322">電話予約</a>
+          <a class="btn btn-secondary" href="https://www.instagram.com/joutou.takoyaki.0211/" target="_blank" rel="noopener">Instagramを見る</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="container info-grid">
+        <div class="card">
+          <h2>今週の出店</h2>
+          <p id="scheduleText">かねひで大宮 10/29〜11/2</p>
+          <p class="muted">変更になる場合があります。最新はInstagramをご確認ください。</p>
+        </div>
+        <div class="card">
+          <h2>営業時間</h2>
+          <p>平日 14:00〜19:30</p>
+          <p>土日 11:00〜19:30</p>
+          <p class="muted">定休：月曜、隔週火曜</p>
+        </div>
+        <div class="card">
+          <h2>ご案内</h2>
+          <p>電話予約は右下の「電話する」から。</p>
+          <p>屋台・フードトラックで営業中。</p>
+          <a class="link" href="https://www.instagram.com/joutou.takoyaki.0211/" target="_blank" rel="noopener">最新情報をInstagramで見る</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="fab" id="fabCall" href="tel:05068715322" aria-label="電話する">📞</a>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">大阪渡来 上等たこ焼き（名護本陣）</div>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/joutou.takoyaki.0211/" target="_blank" rel="noopener">Instagram</a>
+        <a href="tel:05068715322">電話する</a>
+      </div>
+      <div class="footer-copy">© <span id="year"></span> Joutou Takoyaki Nago. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
